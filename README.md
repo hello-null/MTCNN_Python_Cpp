@@ -49,7 +49,9 @@ pj_mtcnn/
 │   │   ├── pnet.onnx
 │   │   ├── rnet.onnx
 │   │   └── onet.onnx
-│   ├── onnxruntime-win-x64-gpu-1.18.0/  # ONNX Runtime 依赖，需要手动下载并解压
+│   ├── onnxruntime-win-x64-gpu-1.18.0 / onnxruntime-win-x64-gpu-1.18.0 /  # ONNX Runtime 依赖
+│   │   ├── include/        # 头文件目录
+│   │   └── lib/            # 库文件目录
 │   └── x64/               # 编译输出目录
 │       └── Release/
 ├── config_imgs/           # VS2022 配置截图
